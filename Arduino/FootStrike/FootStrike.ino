@@ -113,7 +113,7 @@ void footStrike() // task
         }
         Serial.println("Closing File");
         newFile.close();
-    
+        break;    
       }
         // pressure sensor ADC reading
         int ps1ADC = analogRead(PS1);
